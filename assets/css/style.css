@@ -1,7 +1,20 @@
-/* Google font */
+/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body {
-    font-family: "Hanken Grotesk", sans-serif;
+/* CSS Variables */
+:root {
+    --primary-font: "Hanken Grotesk", sans-serif;
+    --primary-color: #000; /* black */
+    --secondary-color: #ffffff; /* white */
+    --highlight-color: #AC3331; /* red */
+    --highlight-color-light: #b98f88; /* light red */
 }
+
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
