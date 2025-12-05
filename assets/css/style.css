@@ -103,3 +103,31 @@ body {
     color: var(--highlight-color);
     border-color: var(--highlight-color-light);
 }
+
+/* Subscribe banner */
+.subscribe-banner {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border-color: var(--highlight-color-light);
+}
+
+/* Subscribe banner button */
+.subscribe-banner-button {
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color-light);
+    font-weight: bold;  
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 0; /* removes rounded corners */
+    transition: box-shadow 0.3s ease; /* smooth animation for hover */
+}
+
+/* Subscribe banner button hover effect */
+.subscribe-banner-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border-color: var(--highlight-color-light);
+}
