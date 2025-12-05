@@ -8,7 +8,7 @@
     --primary-color: #000; /* black */
     --secondary-color: #ffffff; /* white */
     --highlight-color: #AC3331; /* red */
-    --highlight-color-light: #b98f88; /* light red */
+    --highlight-color-light: #b98f88; /* pale red */
 }
 
 /* Global styles */
@@ -18,3 +18,10 @@ body {
     background-color: var(--primary-color);
 }
 
+
+/* Branding Banner */
+.branding-banner {
+    background-color: var(--highlight-color);
+    text-align: center;
+    padding: 30px 10px; /* top/bottom and left/right */
+}
