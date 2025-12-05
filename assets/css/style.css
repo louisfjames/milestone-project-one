@@ -18,6 +18,17 @@ body {
     background-color: var(--primary-color);
 }
 
+/* Video header */
+.video-header-container {
+  max-height: 500px; /* setting max height */
+  overflow: hidden;
+}
+
+.video-header-container video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* ensuring the video covers entire container despite max height */
+}
 
 /* Tagline banner */
 .tagline-banner {
