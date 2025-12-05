@@ -58,7 +58,10 @@ body {
 
 /* Artist card hover effect */
 .artist-card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color-light);
 }
 
 /* Artist image sizing */
@@ -67,4 +70,25 @@ body {
   height: 180px;
   object-fit: cover;
 
+}
+
+/* Book tickets button */
+.book-tickets-button {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border-color: var(--highlight-color-light);
+    font-weight: bold;  
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 0; /* removes rounded corners */
+    transition: box-shadow 0.3s ease; /* smooth animation for hover */
+}
+
+/* Book tickets button hover effect */
+.book-tickets-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color-light);
 }
