@@ -19,9 +19,27 @@ body {
 }
 
 
-/* Branding Banner */
-.branding-banner {
+/* Tagline banner */
+.tagline-banner {
     background-color: var(--highlight-color);
     text-align: center;
     padding: 30px 10px; /* top/bottom and left/right */
+}
+
+
+/* Upcoming live shows section */
+
+/* Artist card layout */
+.artist-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Artist image sizing */
+.artist-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
 }
