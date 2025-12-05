@@ -23,14 +23,23 @@ body {
 .tagline-banner {
     background-color: var(--highlight-color);
     text-align: center;
-    padding: 30px 10px; /* top/bottom and left/right */
+    padding: 30px 10px;
+    font-weight: bold;
+    font-size: 2.5rem;   
+    text-transform: uppercase;
 }
 
-
 /* Upcoming live shows section */
-.live-shows {
+.upcoming-live-shows-section {
     color: var(--primary-color);
     background-color: #ffffff;
+}
+
+/* Target the h1 inside the Upcoming Live Shows section */
+.upcoming-live-shows-section h1 {
+  font-weight: bold;
+  font-size: 2.5rem;   
+  text-transform: uppercase;
 }
 
 /* Artist card layout */
