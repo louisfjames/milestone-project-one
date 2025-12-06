@@ -31,15 +31,11 @@ h1, h2, h5 {
     text-transform: uppercase;
 }
 
-/* Navbar links */
 #navbar .nav-link {
     color: var(--secondary-color);
-    border-bottom: 2px solid transparent; /* creates underline for hover */
-    padding-bottom: 2px; /* creates space between underline and text for hover */
     transition: color 150ms ease, border-color 150ms ease;
 }
 
-/* Navbar links hover effect */
 #navbar .nav-link:hover {
     color: var(--highlight-color-light);
     border-bottom-color: var(--highlight-color-light);
@@ -71,12 +67,11 @@ h1, h2, h5 {
     background-color: #ffffff;
 }
 
-/* Target the h1 inside the Upcoming Live Shows section */
 .upcoming-live-shows-section h1 {
   font-size: 2.5rem;   
 }
 
-/* Artist card layout */
+/* Artist card layout - within live shows section */
 .artist-card {
   display: flex;
   flex-direction: row;
@@ -90,7 +85,6 @@ h1, h2, h5 {
   transition: box-shadow 0.3s ease; /* smooth animation for hover shadow */
 }
 
-/* Artist card hover effect */
 .artist-card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--secondary-color);
@@ -98,9 +92,8 @@ h1, h2, h5 {
     border-color: var(--highlight-color-light);
 }
 
-/* Artist image sizing */
 .artist-image {
-  width: 180px;
+  width: 180px; /* Artist image sizing */
   height: 180px;
   object-fit: cover;
 
@@ -119,7 +112,7 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-/* Book tickets button hover effect */
+
 .book-tickets-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--secondary-color);
@@ -134,7 +127,6 @@ h1, h2, h5 {
     border-color: var(--highlight-color-light);
 }
 
-/* Subscribe banner button */
 .subscribe-banner-button {
     background-color: var(--secondary-color);
     color: var(--highlight-color);
@@ -147,7 +139,6 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-/* Subscribe banner button hover effect */
 .subscribe-banner-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--highlight-color);
@@ -172,7 +163,6 @@ h1, h2, h5 {
     transition: 0.3s ease; /* smooth animation for hover */
 }
 
-/* Social media links hover effect */
 .social-media-links a:hover {
     color: var(--highlight-color);
 }
