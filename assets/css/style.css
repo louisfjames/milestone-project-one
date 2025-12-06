@@ -23,6 +23,28 @@ h1, h2, h5 {
     text-transform: uppercase;
 }
 
+/* Nav bar */
+#navbar {
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navbar links */
+#navbar .nav-link {
+    color: var(--secondary-color);
+    border-bottom: 2px solid transparent; /* creates underline for hover */
+    padding-bottom: 2px; /* creates space between underline and text for hover */
+    transition: color 150ms ease, border-color 150ms ease;
+}
+
+/* Navbar links hover effect */
+#navbar .nav-link:hover {
+    color: var(--highlight-color-light);
+    border-bottom-color: var(--highlight-color-light);
+}
+
 /* Video header */
 .video-header-container {
   max-height: 500px; /* setting max height */
