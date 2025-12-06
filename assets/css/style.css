@@ -139,5 +139,18 @@ h1, h2, h5 {
     background-color: var(--secondary-color);
     line-height: 1;
     margin-bottom: 0.25rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+}
+
+/* Footer section social media links*/
+.social-media-links a {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    padding: 10px;
+    transition: 0.3s ease; /* smooth animation for hover */
+}
+
+/* Social media links hover effect */
+.social-media-links a:hover {
+    color: var(--highlight-color);
 }
