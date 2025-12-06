@@ -136,5 +136,11 @@ body {
 .footer-section {
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    line-height: 1;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
 }
 
+.footer-section h5 {
+    text-transform: uppercase;
+}
