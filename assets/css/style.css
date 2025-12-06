@@ -99,9 +99,9 @@ h1, h2, h5 {
 
 }
 
-/* Book tickets button */
+/* Book tickets button - within live shows section*/
 .book-tickets-button {
-    background-color: var(--highlight-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
     font-weight: bold;  
@@ -112,11 +112,10 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-
 .book-tickets-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
+    background-color: var(--secondary-colort);
+    color: var(--primary-color);
     border-color: var(--highlight-color-light);
 }
 
