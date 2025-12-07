@@ -165,3 +165,13 @@ h1, h2, h5 {
 .social-media-links a:hover {
     color: var(--highlight-color);
 }
+
+/* Media queries */
+
+/* Small devices (mobile, 768px and below) */
+@media screen and (max-width: 768px) {
+    /* Make Information section text center on small devices */
+    .info-background-section {
+        text-align: center;
+    }
+}
