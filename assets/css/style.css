@@ -95,9 +95,9 @@ h1, h2, h5 {
 
 .artist-image {
   width: 180px; /* Artist image sizing */
-  height: 180px;
+  height: 200px;
+  margin-top: 20px;
   object-fit: cover;
-
 }
 
 /* Book tickets button - within live shows section*/
@@ -166,6 +166,27 @@ h1, h2, h5 {
 .social-media-links a:hover {
     color: var(--highlight-color);
 }
+
+/* Buy tickets button on Live Shows page */
+.buy-tickets-button {
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color-light);
+    font-weight: bold;  
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 0; /* removes rounded corners */
+    transition: box-shadow 0.3s ease; /* smooth animation for hover */
+}
+
+.buy-tickets-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border-color: var(--highlight-color-light);
+}
+
 
 /* Media queries */
 
