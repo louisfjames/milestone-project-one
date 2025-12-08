@@ -205,8 +205,8 @@ h1, h2, h5 {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+/* Medium devices (tablets, 768px and up to 992px) */
+@media screen and (max-width: 992px) {
     /* Center artist image at top of artist cards (Home & Live Shows pages) on medium devices */
     .artist-card .row {
         flex-direction: column;
