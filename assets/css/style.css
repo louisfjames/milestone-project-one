@@ -196,4 +196,21 @@ h1, h2, h5 {
     .info-background-section {
         text-align: center;
     }
+    
+    /* Center artist image at top of artist cards (Home & Live Shows pages) on small devices */
+    .artist-card .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Center artist image at top of artist cards (Home & Live Shows pages) on medium devices */
+    .artist-card .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
