@@ -72,36 +72,37 @@
     <main>
         <!-- Booking inquiry form section -->
         <section id="booking-form" class="container section">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center pt-5 pb-5">
                 <div class="col-12 col-md-8">
-                    <h2 class="row justify-content-center">Contact us</h2>
+                    <h2 class="row justify-content-center">Contact Form</h2>
                     <form>
                         <div class="row">
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name">
+                                <input class="form-control" id="name" name="name" type="text" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email">
+                                <input class="form-control" id="email" name="email" type="email" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
-                                <label for="event-type" class="form-label">Event type</label>
-                                <select id="event-type" class="form-select">
-                                    <option selected>Select</option>
-                                    <option value="regular-play">Reserve a table</option>
-                                    <option value="dnd">Dungeons & Dragons</option>
-                                    <option value="retro-night">Retro Game Night</option>
-                                    <option value="tournament">Tournament</option>
-                                    <option value="kids-party">Kids party</option>
+                                <label for="event-type" class="form-label">Query Type</label>
+                                <select id="event-type" class="form-select" name="query-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="ticketing-and-booking-enquires">Ticketing and Booking Enquiries</option>
+                                    <option value="lost-property">Lost Property</option>
+                                    <option value="venue-hire">Venue Hire</option>
+                                    <option value="accessibility-and-specialist-requirements">Accessibility and Specialist Requirements</option>
+                                    <option value="press-and-artist-queries">Press and Artist Queries</option>
+                                    <option value="other">Other</option>
                                 </select>
                             </div>
                             <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
+                                <label for="message" class="form-label" name="message" required>Message</label>
                                 <textarea class="form-control" rows="6" id="message"></textarea>
                             </div>
                         </div>
