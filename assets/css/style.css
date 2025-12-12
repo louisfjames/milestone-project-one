@@ -71,7 +71,7 @@ h1, h2, h5 {
   font-size: 2.5rem;   
 }
 
-/* Artist card layout - within live shows section */
+/* Artist card layout - used on Home and Live Shows page "*/
 .artist-card {
   display: flex;
   flex-direction: row;
@@ -85,7 +85,6 @@ h1, h2, h5 {
   transition: box-shadow 0.3s ease; /* smooth animation for hover shadow */
 }
 
-
 .artist-image {
   width: 180px; /* Artist image sizing */
   height: 200px;
@@ -94,8 +93,8 @@ h1, h2, h5 {
 }
 
 
-/* Buy tickets button on Home Page and Live Shows page */
-.buy-tickets-button {
+/* Buttons */
+.white-button {
     background-color: var(--secondary-color);
     color: var(--highlight-color);
     border-color: var(--highlight-color-light);
@@ -107,15 +106,14 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-.buy-tickets-button:hover {
+.white-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--highlight-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
 }
 
-/* See more acts button - within live shows section*/
-.see-more-acts-button {
+.black-button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
@@ -127,34 +125,15 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-.see-more-acts-button:hover {
+.black-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
-    background-color: var(--secondary-colort);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     border-color: var(--highlight-color-light);
 }
 
 /* Subscribe banner */
 .subscribe-banner {
-    background-color: var(--highlight-color);
-    color: var(--secondary-color);
-    border-color: var(--highlight-color-light);
-}
-
-.subscribe-banner-button {
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
-    border-color: var(--highlight-color-light);
-    font-weight: bold;  
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-width: 3px;
-    border-radius: 0; /* removes rounded corners */
-    transition: box-shadow 0.3s ease; /* smooth animation for hover */
-}
-
-.subscribe-banner-button:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--highlight-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
