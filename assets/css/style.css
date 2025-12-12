@@ -100,8 +100,29 @@ h1, h2, h5 {
   object-fit: cover;
 }
 
-/* Book tickets button - within live shows section*/
-.book-tickets-button {
+
+/* Buy tickets button on Home Page and Live Shows page */
+.buy-tickets-button {
+    background-color: var(--secondary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color-light);
+    font-weight: bold;  
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-radius: 0; /* removes rounded corners */
+    transition: box-shadow 0.3s ease; /* smooth animation for hover */
+}
+
+.buy-tickets-button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border-color: var(--highlight-color-light);
+}
+
+/* See more acts button - within live shows section*/
+.see-more-acts-button {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
@@ -113,7 +134,7 @@ h1, h2, h5 {
     transition: box-shadow 0.3s ease; /* smooth animation for hover */
 }
 
-.book-tickets-button:hover {
+.see-more-acts-button:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
     background-color: var(--secondary-colort);
     color: var(--primary-color);
@@ -165,26 +186,6 @@ h1, h2, h5 {
 
 .social-media-links a:hover {
     color: var(--highlight-color);
-}
-
-/* Buy tickets button on Live Shows page */
-.buy-tickets-button {
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
-    border-color: var(--highlight-color-light);
-    font-weight: bold;  
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-width: 3px;
-    border-radius: 0; /* removes rounded corners */
-    transition: box-shadow 0.3s ease; /* smooth animation for hover */
-}
-
-.buy-tickets-button:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* shadow on hover */
-    background-color: var(--highlight-color);
-    color: var(--secondary-color);
-    border-color: var(--highlight-color-light);
 }
 
 
