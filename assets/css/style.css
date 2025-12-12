@@ -85,13 +85,6 @@ h1, h2, h5 {
   transition: box-shadow 0.3s ease; /* smooth animation for hover shadow */
 }
 
-/* Removed hover on artist cards when adding buttons on live shows page - may adjust 
-.artist-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-    background-color: var(--secondary-color);
-    color: var(--highlight-color);
-    border-color: var(--highlight-color-light);
-} */
 
 .artist-image {
   width: 180px; /* Artist image sizing */
