@@ -5,7 +5,7 @@
 /* CSS variables */
 :root {
     --primary-font: "Hanken Grotesk", sans-serif;
-    --primary-color: #000; /* black */
+    --primary-color: #000000; /* black */
     --secondary-color: #ffffff; /* white */
     --highlight-color: #AC3331; /* red */
     --highlight-color-light: #b98f88; /* pale red */
