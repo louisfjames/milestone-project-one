@@ -97,6 +97,7 @@ h1, h2, h5 {
   object-fit: cover;
 }
 
+
 /* Buttons */
 .white-button {
     background-color: var(--secondary-color);
@@ -115,6 +116,15 @@ h1, h2, h5 {
     background-color: var(--highlight-color);
     color: var(--secondary-color);
     border-color: var(--highlight-color-light);
+}
+
+.btn.disabled,
+.btn:disabled {
+  color: #fff !important; /* overrides disabled button Bootstrap class to ensure that writing is readible */
+  border: 1px solid #fff !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  pointer-events: none;
 }
 
 .black-button {
