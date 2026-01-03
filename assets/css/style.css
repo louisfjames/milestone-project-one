@@ -164,6 +164,10 @@ h1, h2, h3, h5 {
     border-color: var(--highlight-color-light);
 }
 
+.subscribe-banner h3 {
+    font-size: 1rem;
+}
+
 /* Footer section */
 .footer-section {
     color: var(--primary-color);
