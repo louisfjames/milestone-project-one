@@ -97,6 +97,12 @@ h1, h2, h5 {
   object-fit: cover;
 }
 
+/* Responsive map on Home page */
+.responsive-map {
+    width: 100%;
+    height: 300px;
+}
+
 
 /* Buttons */
 .white-button {
