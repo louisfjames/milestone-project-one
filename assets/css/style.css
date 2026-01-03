@@ -18,7 +18,7 @@ body {
     background-color: var(--primary-color);
 }
 
-h1, h2, h5 {
+h1, h2, h3, h5 {
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -96,6 +96,11 @@ h1, h2, h5 {
   margin-top: 20px;
   object-fit: cover;
 }
+
+.card-title {
+    font-size: 1.25rem; /* To ensure that h2 headings are the correct size */
+}
+
 
 /* Responsive map on Home page */
 .responsive-map {
