@@ -213,6 +213,16 @@ h1, h2, h3, h4, h5 {
         align-items: center;
         text-align: center;
     }
+
+    /* Make subscribe banner text center on small devices */
+    .subscribe-banner {
+        text-align: center;
+    }
+
+    /* Make venue specs section on Venue Hire page text center on small devices */
+    .venue-specs-section {
+        text-align: center;
+    }
 }
 
 /* Medium devices (tablets, 768px and up to 992px) */
