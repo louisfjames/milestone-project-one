@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5 {
     border-bottom-color: var(--highlight-color-light);
 }
 
+.clickable-button {
+    cursor: pointer;
+}
+
 /* Video header */
 .video-header-container {
   max-height: 500px; /* setting max height */
